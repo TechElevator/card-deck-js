@@ -1,0 +1,26 @@
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .deck > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;    
+    font-size: 10pt;      
+  }
+  
+  .deck > .redCard {
+    width: 50px;
+    color: red;
+  }
+  
+  .deck > .blackCard {
+    width: 50px;
+    color: black;
+  }
